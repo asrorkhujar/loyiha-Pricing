@@ -1,0 +1,222 @@
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/montserrat-v15-latin-700.eot"); /* IE9 Compat Modes */
+  src:
+       url("../fonts/montserrat-v15-latin-700.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+       url("../fonts/montserrat-v15-latin-700.woff2") format("woff2"), /* Super Modern Browsers */
+       url("../fonts/montserrat-v15-latin-700.woff") format("woff"), /* Modern Browsers */
+       url("../fonts/montserrat-v15-latin-700.ttf") format("truetype"), /* Safari, Android, iOS */
+       url("../fonts/montserrat-v15-latin-700.svg#Montserrat") format("svg"); /* Legacy iOS */
+}
+
+
+
+
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  background-color: #F2F2F2;
+  background-image:
+  url("../img/naqsh0.svg");
+  /* url("../img/naqsh2.svg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+/* background-position: right top, left bottom; */
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+
+.pricing-head{
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.pricing-head h2{
+  text-transform: capitalize;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #6E728E;
+}
+
+.pricing-hero{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+  width: 350px;
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 10px 0px 0px 10px;
+  text-align: center;
+  padding: 31px;
+}
+
+.level{
+font-size: 18px;
+line-height: 28px;
+color: #6E728E;
+}
+.dollar{
+  font-size: 40px;
+  line-height: 49px;
+  text-align: center;
+  letter-spacing: -1.2px;
+  color: #4A4D60;
+}
+.cost{
+font-size: 72px;
+line-height: 71px;
+letter-spacing: -2.16px;
+color: #4A4D60;
+margin: 0;
+border-bottom: 1px solid rgba(110, 114, 142, 0.25);
+mix-blend-mode: normal;
+padding: 32px;
+display: flex;
+align-items: center;
+}
+.dollar{
+  margin-right: 10px;
+}
+
+.pricing-list{
+list-style: none;
+font-size: 15px;
+line-height: 28px;
+color: #6E728E;
+padding: 0;
+margin-top: 0;
+margin-bottom: 32px;
+}
+.pricing-items{
+  padding: 12px;
+border-bottom: 1px solid rgba(110, 114, 142, 0.25);
+mix-blend-mode: normal;
+}
+
+.pricing-button{
+display: block;
+text-decoration: none;
+text-transform: uppercase;
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 1.39286px;
+color: #FFFFFF;
+padding: 14px;
+/* background: linear-gradient(135deg, #A2A7F0 0%, #696EDD 100%); */
+background: #696EDD;
+border-radius: 6px;
+width: 288px;
+margin-bottom: 30px;
+transition: all 0.4s ease;
+border: 1px solid transparent;
+}
+
+.pricing-button:hover{
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #6D72DE;
+  border: 1px solid #6D72DE;
+  transition: all 0.4s ease;
+}
+
+
+.second-box{
+background: linear-gradient(135.06deg, #A2A7F0 -0.05%, #696EDD 100.05%);
+box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+border-radius: 10px;
+padding: 55px 30px 55px 30px;
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.lvl-second{
+color: #fff;
+}
+
+.second-box p{
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  /* padding-left:0; */
+
+}
+.second-box span{
+  color: #fff;
+}
+
+.second-box li{
+  color: #fff;
+}
+
+.btn-second{
+color: #6D72DE;
+background: #fff;
+}
+.btn-second:hover{
+  background: transparent;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid #fff;
+  transition: all 0.4s ease;
+}
+.second-box li{
+  border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+
+}
+
+.third-box{
+  box-shadow: 0px 20px 40px rgba(212, 210, 244, 0.5);
+  border-radius: 0px 10px 10px 0px;
+}
+.second-list{
+  width: 100%;
+}
